@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript Alert</title>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <p>Notice the Javascript gets run before this text.
+            That is because it's interpreted
+        </p>
+        <button onclick="My_First_Function()" id="Green_Text">
+        Click me!
+        </button>
+        <p onmouseover="Blinking_Function()" id= 'blink'>LOADING</p>
+        <p id ="concatenate" onclick="myFunction()">Click here to run myFunction</p>
+        <!--I wanted to see what would happen when I use a SECOND JS file in regards to how it renders-->
+        <script src="js/page_two.js"></script>
+        <p>One thing of note is that the new file was given it's own new line.<br>
+            Meaning, if there is text being written to the document via JS, it will<br> 
+            add it to the end of the last element unless a new element such as
+            a paragraph
+        </p>
+        <button id="Math" onclick="addition_Function()">Example of an expression</button>
+        <p id="modulo" onclick="modulus_Operator()">Click here</p>
+
+        <script src="js/page_three.js"></script>
+        <p id="Dictionary" onclick="my_Dictionary()">Click for example of Dictionary</p>
+        <p id="test" onclick="my_Function()">Click here for an example of NaN</p>
+
+        <p>Riders must be at least 52 centimeters tall to ride</p>
+        <input id="Height" value="52" />
+        <button onclick="Ride_Function()">Click Here!</button>
+        <p id="Ride"></p>
+        
+        <!-- Just a reminder that when the button is clicked it runs the function
+        The function then finds the id with the cooresponding attribute-->
+        <button onclick="keyword_Function()">Example of 'this' keyword</button>
+        <p id="Keywords_and_Constructors"></p>
+        <p id="Counting" onclick="count_Function()">Example of nested function</p>
+        <p id="Greeting" onclick="get_Date()"> Example of time based greeting.</p>
+        <p id="Time_of_day"></p>
+        <button onclick="Time_function()">Greeting by time of day</button>
+        
+    </body>
+</html>
+
+<!--
+    What is my greatest strength:
+    Obession. The reason that this characteristic is my best despite it being more commonly used as a pajoritive
+    is because it is obession that eliminates what ive seen in my experience in offices. Ive seen what every office seems to have
+    at least one of and that is the person who is comfortable with saying, 'good enough' or 'thats not my job'. 
+    Im greatful for finding programming because even if ive written the most perfect code, it can always be made better, 
+    more efficient, used in different way, etc. Programming can feed this my obsession. That being said, being aware of this has 
+    also caused me to develop a sort of built in check and balance. A compliment to a characteristic that is usually a negative. 
+    That compliment being acceptance. I had to learn and develop my ability to accept circumstances, results, accomplishment etc.
+    This personal formula that i've put together makes me feel that optimized to get the results i want. Those results being 
+    constant growth, improvement, and adaptability. I also feel that this formula sets me aside from most others because my experience
+    has been that most peoples scale is tipped too far in one direction or the other; either obsession or acceptance. I believe that
+    a perfect balance of the two is not only rare but requires a self awareness to maintain that i havent seen in very many people
+    and that gives me confidence that I'm a valuable asset to anything im involved in.   
+-->
